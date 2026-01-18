@@ -1,0 +1,13 @@
+# Allow all search engines to crawl the site
+User-agent: *
+Allow: /
+
+# Disallow admin and sensitive areas
+Disallow: /admin
+Disallow: /login
+Disallow: /sangli-office
+Disallow: /jath-office
+Disallow: /latur-office
+
+# Sitemap location
+Sitemap: https://shreedattaenterprises.com/sitemap.xml
